@@ -1,0 +1,51 @@
+
+//mixin
+
+@mixin padding-left{
+
+    padding:80px; 
+}
+
+
+@mixin text-WincTesti {
+
+font-family: 'Roboto', sans-serif;
+text-align:left;
+line-height:1.8em; 
+padding: 50px 40px 40px 40px;
+color: grey;
+font-size:1.2em;
+
+}
+
+@mixin Links{
+
+a:link{ 
+
+    color: $color-grey;
+    text-decoration: none;
+
+}
+
+a:visited{ 
+
+    color: green;
+    text-decoration: none;
+
+}
+
+a:hover{
+
+color: hotpink;
+text-decoration: none;
+
+}
+
+a:active{
+
+    color: blue;
+    text-decoration: none;
+
+}
+
+}

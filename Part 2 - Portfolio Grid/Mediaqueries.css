@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+  body {
+    display: grid;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1r;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media (min-width: 1700px) {
+  body {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1r 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}/*# sourceMappingURL=Mediaqueries.css.map */

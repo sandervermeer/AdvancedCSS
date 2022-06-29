@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+a:link {
+  color: #c3cfe2;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+body {
+  background-color: #c3cfe2;
+}
+
+.Sander {
+  height: 500px;
+  width: 400px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10%;
+  left: 10%;
+  right: 25%;
+  border-radius: 20px;
+  background-color: #fff;
+  filter: drop-shadow(5px 5px 5px grey);
+}
+.Sander h3 {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  line-height: 1.8em;
+  padding: 50px 40px 40px 40px;
+  color: grey;
+  font-size: 1.2em;
+}
+.Sander img {
+  height: 120px;
+  width: 120px;
+  margin-left: 140px;
+  margin-right: 140px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.Sander .PersonID {
+  background-color: #686de0;
+  width: 100%;
+  height: 175px;
+  margin-top: -75px;
+  border-radius: 0 0 20px 20px;
+}
+.Sander .PersonID h2 {
+  letter-spacing: 0.15em;
+  color: #fff;
+  padding-top: 75px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.Sander .PersonID h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: -10px;
+  letter-spacing: 0.1em;
+}/*# sourceMappingURL=style.css.map */
